@@ -56,12 +56,15 @@ header img {
     height: 50px;
 }
 
-header .logo {
+header .logo a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-right: auto;
     flex: 1;
+}
+
+header .logo {
+    margin-right: auto;
 }
 
 .container {
